@@ -1,8 +1,8 @@
-# md-paper
+# markdown-paper
 
 > English | [中文](./README_zh.md)
 
-**md-paper** is a lightweight command-line tool to help you manage literature notes written in Markdown.  
+**markdown-paper** is a lightweight command-line tool to help you manage literature notes written in Markdown.  
 It is inspired by [Mu Li](https://www.bilibili.com/video/BV1nA41157y4) and is a modified version of [autoLiterature](https://github.com/WilmerWang/autoLiterature), focusing on a smoother Markdown workflow.
 
 Best practice: use it together with Typora and configure Typora to use **relative paths** for images and file links.
@@ -13,7 +13,7 @@ Finally, place your literature and Markdown notes in the same folder, and use LL
 
 ### 1. Start from Markdown notes: fetch metadata and PDFs
 
-md-paper scans your Markdown file(s) and automatically recognizes paper IDs, then:
+markdown-paper scans your Markdown file(s) and automatically recognizes paper IDs, then:
 
 - updates the metadata of papers in your notes;
 - optionally downloads the corresponding PDFs.
@@ -21,8 +21,8 @@ md-paper scans your Markdown file(s) and automatically recognizes paper IDs, the
 **Syntax rules:**
 
 - Automatically recognizes list items like: `- {xxx}`.
-- When a note line contains `- {paper_id}`, md-paper updates the paper metadata in the note, **without downloading PDF**.
-- When a note line contains `- {{paper_id}}`, md-paper updates both the paper metadata **and downloads the PDF**.
+- When a note line contains `- {paper_id}`, markdown-paper updates the paper metadata in the note, **without downloading PDF**.
+- When a note line contains `- {{paper_id}}`, markdown-paper updates both the paper metadata **and downloads the PDF**.
 
 Supported `paper_id` types:
 

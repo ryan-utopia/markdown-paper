@@ -1,8 +1,8 @@
-# md-paper
+# markdown-paper
 
 > 中文 | [English](./README.md)
 
-**md-paper** 是一个极简的 Python 命令行工具，用来管理你用 Markdown 书写的文献笔记。  
+**markdown-paper** 是一个极简的 Python 命令行工具，用来管理你用 Markdown 书写的文献笔记。  
 它受到了 [Mu Li](https://www.bilibili.com/video/BV1nA41157y4) 老师的启发，在 [autoLiterature](https://github.com/WilmerWang/autoLiterature) 的基础上做了简化与修改，让和 Markdown 的配合更加顺滑。
 
 推荐最佳实践：搭配 Typora 使用，并在 Typora 中将图片和文件引用路径改为 **相对路径**。
@@ -13,7 +13,7 @@
 
 ### 1. 从 Markdown 笔记出发，获取文献及元信息
 
-md-paper 会扫描指定的 Markdown 文件或文件夹，自动识别文献 ID，并：
+markdown-paper 会扫描指定的 Markdown 文件或文件夹，自动识别文献 ID，并：
 
 - 更新笔记中该文献的元信息；
 - 可选地下载对应 PDF。
