@@ -15,7 +15,7 @@ Finally, place your literature and Markdown notes in the same folder, and use LL
 
 markdown-paper scans your Markdown file(s) and automatically recognizes paper IDs, then:
 
-- updates the metadata of papers in your notes;
+- updates the metadata of papers in your notes, including title, authors, venue, citation count, etc.;
 - optionally downloads the corresponding PDFs.
 
 **Syntax rules:**
